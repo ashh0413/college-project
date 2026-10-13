@@ -1,0 +1,16 @@
+{
+  "prediction_point": "week_6",
+  "label_policy": {
+    "high_failed_subjects_min": 2,
+    "high_end_term_gpa_below": 4.0,
+    "medium_failed_subjects_min": 1,
+    "medium_gpa_decline_at_least": 0.75
+  },
+  "model_selection": {
+    "primary_metric": "high_risk_recall",
+    "tie_breaker": "macro_f1",
+    "test_fraction": 0.2,
+    "random_state": 42
+  }
+}
+

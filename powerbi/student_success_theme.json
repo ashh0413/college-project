@@ -1,0 +1,34 @@
+{
+  "name": "Student Success Analytics",
+  "dataColors": ["#2563EB", "#16A34A", "#F59E0B", "#DC2626", "#7C3AED", "#0891B2", "#64748B"],
+  "background": "#F8FAFC",
+  "foreground": "#17324D",
+  "tableAccent": "#2563EB",
+  "good": "#16A34A",
+  "neutral": "#F59E0B",
+  "bad": "#DC2626",
+  "maximum": "#DC2626",
+  "center": "#F59E0B",
+  "minimum": "#16A34A",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [{"show": true, "fontSize": 13, "fontFamily": "Segoe UI Semibold", "color": {"solid": {"color": "#17324D"}}}],
+        "background": [{"show": true, "color": {"solid": {"color": "#FFFFFF"}}, "transparency": 0}],
+        "border": [{"show": true, "color": {"solid": {"color": "#D7E0EA"}}, "radius": 6}],
+        "visualHeader": [{"show": true}]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{"color": {"solid": {"color": "#F8FAFC"}}, "transparency": 0}]
+      }
+    }
+  },
+  "textClasses": {
+    "callout": {"fontFace": "Segoe UI Semibold", "fontSize": 28, "color": "#17324D"},
+    "title": {"fontFace": "Segoe UI Semibold", "fontSize": 14, "color": "#17324D"},
+    "header": {"fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#17324D"},
+    "label": {"fontFace": "Segoe UI", "fontSize": 10, "color": "#334155"}
+  }
+}

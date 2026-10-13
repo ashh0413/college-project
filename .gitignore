@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+artifacts/*
+!artifacts/.gitkeep
+.env
+
+# Codex / build temp
+.chart-data-*/
+.codex-finalizer/
+*.pptx
+*.pptx.inspect.ndjson
+*.validation.json
+*.codex
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+data/raw/oulad/studentVle.csv
+outputs/01a00aa7-8f08-70c0-b41a-6a4f77261739/

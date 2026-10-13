@@ -1,0 +1,12 @@
+{
+  "cutoff_day": 40,
+  "target": "adverse_outcome",
+  "train_presentations": ["2013B", "2013J"],
+  "validation_presentations": ["2014B"],
+  "test_presentations": ["2014J"],
+  "max_high_review_rate": 0.30,
+  "max_elevated_review_rate": 0.60,
+  "random_state": 42,
+  "minimum_fairness_group_size": 100
+}
+
